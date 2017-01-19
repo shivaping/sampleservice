@@ -15,7 +15,7 @@ namespace Inventory.Service
     using System.Threading.Tasks;
     using Microsoft.ServiceFabric.Data;
 
-    public class DiskBackupManager : IBackupStore
+    public class DiskBackupManager : IBackupStore 
     {
         private string PartitionArchiveFolder;
         private string PartitionTempDirectory;
